@@ -1,0 +1,109 @@
+/* Header.css */
+.header {
+   
+    background:  url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSS1wFlUpPlNVlp1476dpJm0OHaYmSfJu8PtA&ss');
+    background-size: cover;
+    background-position: center;
+    padding: 40px 0;
+    text-align: center;
+    color: greenyellow;
+    animation: backgroundMove 10s infinite alternate;
+    position: relative;
+  }
+  
+  .header .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+  }
+  
+  .animated-name {
+    font-size: 3em;
+    margin: 0;
+    color: hsl(203, 100%, 59%);
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 4px solid rgba(255, 255, 255, 0.75);
+    animation: typing 3s steps(10) 1s forwards, blink 0.75s step-end infinite;
+  }
+  
+  .animated-title {
+    font-size: 1.5em;
+    margin: 20px 0;
+    color: green;
+    opacity: 0;
+    animation: fadeIn 2s 1.5s forwards;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin: 0 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+    font-size: 1.2em;
+    position: relative;
+    padding: 5px 0;
+    transition: all 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #4a90e2;
+    transform: scale(1.1);
+  }
+  
+  nav ul li a::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background-color: #fff;
+    transition: width 0.3s ease, left 0.3s ease;
+  }
+  
+  nav ul li a:hover::before {
+    width: 100%;
+    left: 0;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
+  
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes backgroundMove {
+    0% {
+      background-position: 0% 0%;
+    }
+    100% {
+      background-position: 100% 100%;
+    }
+  }
+  

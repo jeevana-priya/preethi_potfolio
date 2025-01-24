@@ -1,0 +1,35 @@
+/* About.css */
+.about {
+    padding: 60px 0;
+    background-color: #f9f9f9;
+    color: #333;
+    text-align: center;
+  }
+  
+  .about h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #ff69b4; /* Pink color for the header */
+    font-weight: bold;
+  }
+  
+  .about p {
+    font-size: 1.2em;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    color: #555;
+    font-style: italic;
+  }
+  
+  .about .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  .about .container p:first-child {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #4a90e2; /* Blue color for a standout first paragraph */
+  }
+  

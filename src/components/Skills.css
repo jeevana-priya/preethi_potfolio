@@ -1,0 +1,65 @@
+/* Skills.css */
+.skills {
+    padding: 60px 0;
+    background-color: #f9f9f9;
+    color: #333;
+    text-align: center;
+  }
+  
+  .skills h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #ff69b4; /* Pink color for the header */
+    font-weight: bold;
+  }
+  
+  .skills-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 40px;
+  }
+  
+  .skill {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    text-align: center;
+  }
+  
+  .skill h3 {
+    font-size: 1.8em;
+    color: #4a90e2; /* Blue color for each skill header */
+    margin-bottom: 10px;
+  }
+  
+  .skill p {
+    font-size: 1.1em;
+    color: #555;
+  }
+  
+  .skill-img {
+    width: 80px;  /* Size the images */
+    height: 80px;
+    margin-bottom: 20px;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+  }
+  
+  .skill:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .skill-img:hover {
+    transform: scale(1.1); /* Add a little zoom effect to the images */
+  }
+  
+  .skills .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
