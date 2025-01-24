@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/jeevana-priya/preethi_potfolio/static/css/main.ab9e44ff.css",
+    "main.js": "/jeevana-priya/preethi_potfolio/static/js/main.15006d72.js",
+    "static/media/bkg.jpg": "/jeevana-priya/preethi_potfolio/static/media/bkg.1585f6abfe0e7cd52c87.jpg",
+    "static/media/planet-earth.png": "/jeevana-priya/preethi_potfolio/static/media/planet-earth.f53eae396005420c2a07.png",
+    "static/media/palette.png": "/jeevana-priya/preethi_potfolio/static/media/palette.e77f158f7ccbc8c749b5.png",
+    "static/media/conversation.png": "/jeevana-priya/preethi_potfolio/static/media/conversation.0354bd0fb8d3fd2dd1f8.png",
+    "static/media/cad-file.png": "/jeevana-priya/preethi_potfolio/static/media/cad-file.fe3882a077f41ee06fd6.png",
+    "index.html": "/jeevana-priya/preethi_potfolio/index.html",
+    "main.ab9e44ff.css.map": "/jeevana-priya/preethi_potfolio/static/css/main.ab9e44ff.css.map",
+    "main.15006d72.js.map": "/jeevana-priya/preethi_potfolio/static/js/main.15006d72.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ab9e44ff.css",
+    "static/js/main.15006d72.js"
+  ]
+}
